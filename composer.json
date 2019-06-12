@@ -1,0 +1,19 @@
+{
+    "name": "jesseychen/package-test",
+    "description": "This is a test.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "summer",
+            "email": "chenjunxing1012@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JesseyChen\\PackageTest\\": "src/"
+        }
+    }
+}
